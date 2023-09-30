@@ -1,5 +1,5 @@
 package io.s1n.value;
 
-public class NumberOfReview {
+public record NumberOfReview(Integer val) {
 
 }

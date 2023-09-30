@@ -24,18 +24,12 @@ public final class Product {
   private final Certification certification;
   private final Dimensions dimensions;
   private final List<Date> dates;
-
   private final List<Weight> weights;
   private final List<Price> prices;
-
   private final List<Material> materials;
-
   private final List<Policy> policies;
-
   private final List<Image> images;
-
   private final List<Video> videos;
-
   private final List<Description> descriptions;
 
   private Product(Builder builder) {
