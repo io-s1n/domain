@@ -1,12 +1,16 @@
 package io.s1n.entity;
 
 import io.s1n.value.NumberOfReview;
+import io.s1n.value.ProductID;
 import io.s1n.value.Rating;
+import io.s1n.value.ReviewID;
 import io.s1n.value.ReviewItem;
 import java.util.List;
 import java.util.Map;
 
 public class Review {
+  private ProductID productID;
+  private ReviewID reviewID;
   private final NumberOfReview numberOfReviews;
   private final List<ReviewItem> reviewItemList;
   private final Map<String, Rating> ratingList;
